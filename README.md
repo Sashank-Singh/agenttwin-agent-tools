@@ -20,6 +20,10 @@ npx skills add Sashank-Singh/agenttwin-agent-tools
 Review the skills before installing. This does not install the CLI or run application
 code. The [AgentTwin Node CLI](https://www.npmjs.com/package/agenttwin) is separate.
 
+The public skill detail pages are [agenttwin-prepare](https://www.skills.sh/sashank-singh/agenttwin-agent-tools/agenttwin-prepare)
+and [agenttwin-investigate](https://www.skills.sh/sashank-singh/agenttwin-agent-tools/agenttwin-investigate).
+Directory rankings and security assessments are independent.
+
 ## Agent configuration
 
 `AGENTS.md` gives coding agents public integration guidance. Cursor users can opt
