@@ -1,0 +1,6 @@
+---
+description: Prepare and investigate AgentTwin workflow tests with explicit evidence and unchanged assertions.
+alwaysApply: false
+---
+
+Read AGENTS.md and the appropriate skill in skills/. Start from a real application entry point, synthetic fixtures and supported provider contracts. Read https://agenttwin.si/docs/preparation.md and the current CLI help. Report unsupported operations instead of connecting to production. Use recorded state and assertions to verify results; do not weaken checks or substitute a demonstration workflow for the user's application. Keep credentials private.

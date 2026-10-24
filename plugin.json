@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agenttwin",
+  "version": "1.0.0",
+  "description": "Prepare reviewed AgentTwin tests and investigate recorded workflow failures.",
+  "homepage": "https://agenttwin.si/developers/"
+}
