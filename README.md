@@ -2,7 +2,7 @@
 
 Official public integration resources for [AgentTwin agent testing](https://agenttwin.si/).
 The product implementation repository is private; this repository contains only
-public agent instructions, two skills and read-only documentation MCP configuration.
+public agent instructions, skills and read-only documentation MCP configuration.
 
 ## Skills
 
@@ -10,8 +10,10 @@ public agent instructions, two skills and read-only documentation MCP configurat
   synthetic fixtures, supported operations and correctness assertions.
 - **agenttwin-investigate** — investigate recorded failures and verify an application
   repair against unchanged checks.
+- **agenttwin-replay** — replay a captured run, verify a source-only repair against
+  unchanged checks, and record the restored baseline as a reviewed regression.
 
-Install both with a compatible skills client:
+Install with a compatible skills client:
 
 ```sh
 npx skills add Sashank-Singh/agenttwin-agent-tools
@@ -21,7 +23,8 @@ Review the skills before installing. This does not install the CLI or run applic
 code. The [AgentTwin Node CLI](https://www.npmjs.com/package/agenttwin) is separate.
 
 The public skill detail pages are [agenttwin-prepare](https://www.skills.sh/sashank-singh/agenttwin-agent-tools/agenttwin-prepare)
-and [agenttwin-investigate](https://www.skills.sh/sashank-singh/agenttwin-agent-tools/agenttwin-investigate).
+and [agenttwin-investigate](https://www.skills.sh/sashank-singh/agenttwin-agent-tools/agenttwin-investigate)
+and [agenttwin-replay](https://www.skills.sh/sashank-singh/agenttwin-agent-tools/agenttwin-replay).
 Directory rankings and security assessments are independent.
 
 ## Agent configuration
