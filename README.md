@@ -4,6 +4,12 @@ Official public integration resources for [AgentTwin agent testing](https://agen
 The product implementation repository is private; this repository contains only
 public agent instructions, skills and read-only documentation MCP configuration.
 
+[AgentTwin](https://agenttwin.si/what-is-agenttwin/) is Node.js workflow testing for prepared
+applications and AI agents. It runs those workflows against synthetic service state,
+injects supported failures and records operations, state changes and assertions for review.
+It is a developer integration testing tool, separate from unrelated research projects
+that use the same name.
+
 ## Skills
 
 - **agenttwin-prepare** — prepare a real repository workflow with explicit invocation,
